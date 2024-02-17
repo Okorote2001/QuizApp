@@ -117,6 +117,13 @@ savedQuestion();
 getScore();
 getFailedScore();
 
+console.log(questNumber === null);
+if(questNumber === null){
+  questNumber = 0;
+}
+else{
+  questNumber = localStorage.getItem("data");
+}
 
 // let question1 = questNumber;
 
