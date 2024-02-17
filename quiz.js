@@ -113,7 +113,7 @@ let questNumber = 0;
 let k = 0;
 let isCorrect;
 
-savedQuestion();
+// savedQuestion();
 getScore();
 getFailedScore();
 
